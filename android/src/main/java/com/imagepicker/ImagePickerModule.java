@@ -208,9 +208,10 @@ public class ImagePickerModule extends ReactContextBaseJavaModule {
       return;
     }
 
-    if (!permissionsCheck(currentActivity)) {
-      return;
-    }
+    // 去掉权限获取。在 android 6.0 下，会导致无法继续下一步。
+    // if (!permissionsCheck(currentActivity)) {
+    //   return;
+    // }
 
     parseOptions(options);
 
@@ -263,9 +264,10 @@ public class ImagePickerModule extends ReactContextBaseJavaModule {
       return;
     }
 
-    if (!permissionsCheck(currentActivity)) {
-      return;
-    }
+    // 去掉权限获取。在 android 6.0 下，会导致无法继续下一步。
+    // if (!permissionsCheck(currentActivity)) {
+    //   return;
+    // }
 
     parseOptions(options);
 

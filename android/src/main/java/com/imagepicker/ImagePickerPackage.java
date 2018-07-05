@@ -16,7 +16,7 @@ public class ImagePickerPackage implements ReactPackage {
     return Arrays.<NativeModule>asList(new ImagePickerModule(reactContext));
   }
 
-  @Override
+  // Deprecated at 0.47  --> modify by pampang
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }

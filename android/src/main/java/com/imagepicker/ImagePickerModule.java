@@ -226,10 +226,10 @@ public class ImagePickerModule extends ReactContextBaseJavaModule
 
     this.options = options;
 
-    if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_CAMERA))
-    {
-      return;
-    }
+    // if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_CAMERA))
+    // {
+    //   return;
+    // }
 
     parseOptions(this.options);
 
@@ -314,10 +314,10 @@ public class ImagePickerModule extends ReactContextBaseJavaModule
 
     this.options = options;
 
-    if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_LIBRARY))
-    {
-      return;
-    }
+    // if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_LIBRARY))
+    // {
+    //   return;
+    // }
 
     parseOptions(this.options);
 

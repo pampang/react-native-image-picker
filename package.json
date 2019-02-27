@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-picker",
-  "description": "A React Native module that allows you to use native UI to select media from the device library or directly from the camera",
+  "name": "react-native-image-picker-shefenqi",
+  "description": "fork from marcshilling/react-native-image-picker. Make it suitable for shefenqi",
   "version": "0.26.10",
   "main": "index.js",
   "repository": {
@@ -8,21 +8,10 @@
     "url": "https://github.com/marcshilling/react-native-image-picker.git"
   },
   "nativePackage": true,
-  "author": "Marc Shilling (marcshilling)",
-  "contributors": [
-    {
-      "name": "Matheus Santos",
-      "email": "vorj.dux@gmail.com"
-    },
-    {
-      "name": "Yoann Fuks",
-      "email": "yfuks@student.42.fr"
-    },
-    {
-      "name": "Alexander Ustinov",
-      "email": "rusfearuth@gmail.com"
-    }
-  ],
+  "author": {
+    "name": "PAMPANG",
+    "email": "fspwz@foxmail.com"
+  },
   "keywords": [
     "react-native",
     "react-native-image-picker",

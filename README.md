@@ -11,6 +11,32 @@
 
 # React Native Image Picker [![npm version](https://badge.fury.io/js/react-native-image-picker.svg)](https://badge.fury.io/js/react-native-image-picker) [![npm](https://img.shields.io/npm/dt/react-native-image-picker.svg)](https://npmcharts.com/compare/react-native-image-picker?minimal=true) ![MIT](https://img.shields.io/dub/l/vibe-d.svg) ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-yellow.svg) [![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/react-native-image-picker/Lobby)
 
+## usage
+
+in `android/settings.gradle`:
+
+```
+// react-native-image-picker dependency
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(settingsDir, '../node_modules/react-native-image-picker-shefenqi/android')
+```
+
+in `ios/Podfile`:
+
+```
+pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker-shefenqi'
+```
+
+### react-antive
+
+in `package.json`:
+
+```
+"react-native-image-picker-shefenqi": "0.26.10",
+```
+
+---
+
 A React Native module that allows you to use native UI to select a photo/video from the device library or directly from the camera, like so:
 
 iOS | Android

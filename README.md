@@ -1,3 +1,13 @@
+## 版本映射情况
+
+| 本仓库版本 | 元仓库版本 |
+| ------ | ------ |
+| 0.22.10-permissionFix | 0.22.10 |
+| 0.26.10-shefenqi && 0.26.10-android_permission_fix | 0.26.10 |
+
+## new feature added by pampang
+
+1. 修复在 android 6.0 下使用 launchCamera 或 launchImageLibrary 时，因为内部权限判断，导致无法继续下去的问题
 
 # React Native Image Picker [![npm version](https://badge.fury.io/js/react-native-image-picker.svg)](https://badge.fury.io/js/react-native-image-picker) [![npm](https://img.shields.io/npm/dt/react-native-image-picker.svg)](https://npmcharts.com/compare/react-native-image-picker?minimal=true) ![MIT](https://img.shields.io/dub/l/vibe-d.svg) ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-yellow.svg) [![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/react-native-image-picker/Lobby)
 
